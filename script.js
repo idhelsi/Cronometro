@@ -20,11 +20,11 @@ function updateT() {
         }
     }
     // FORMATAR O TEMPO
-    let fh = h < 10 ? "0" + h : h
-    let fm = m < 10 ? "0" + m : m
-    let fs = s < 10 ? "0" + s : s
-    let fms = ms < 10 ? "0" + ms : ms
-    let txt = `${fh}:${fm}:${fs}:${fms}`
+    // let fh = h < 10 ? "0" + h : h
+    // let fm = m < 10 ? "0" + m : m
+    // let fs = s < 10 ? "0" + s : s
+    // let fms = ms < 10 ? "0" + ms : ms
+    let txt = `${h}:${m}:${s}:${ms}`
     // Dom
     cronometro.innerText = txt
 }
