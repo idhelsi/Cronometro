@@ -29,7 +29,6 @@ function updateT() {
     cronometro.innerText = txt
 }
 
-//botao dom
 function startStop() {
     if (rum) {
         clearInterval(time)
